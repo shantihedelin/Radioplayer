@@ -1,0 +1,46 @@
+.data-container > div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+img {
+    width: auto;
+    height: 300px;
+}
+
+p, audio {
+    background-color: rgb(249, 199, 244);
+    height: 256px;
+    display: flex;
+    justify-content: center;
+}
+
+audio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 300px;
+}
+
+p {
+    margin: 0px;
+    align-items: center;
+    font-size: 50px;
+}
+
+.controls-bar.bottom {
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+
+}
